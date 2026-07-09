@@ -59,30 +59,5 @@ src/
     └── globals.css
 ```
 
-## AI Agents
-
-### 1. Requirement Agent
-Extracts & analyzes subsystem requirements from user specifications and standards.
-
-### 2. Design Agent
-Generates HLD/LLD diagrams, selects components & produces code/design artifacts.
-
-### 3. Simulation Agent
-Runs simulations using external tools to predict performance and identify potential failures.
-
-### 4. Review Agent
-Validates safety, compliance with standards, and flags risks or design issues.
-
-### 5. Orchestration Agent
-Coordinates agents, manages workflow, iterates until subsystem passes review.
-
-## External Tools Integration
-- **Simulation**: LTspice, MATLAB, ANSYS, Proteus, CANoe
-- **Review**: SonarQube, MISRA-C Checker, Checkpath
-- **Orchestration**: Jenkins, GitHub, Docker
-
 ## License
 MIT
-
-## Support
-For issues or questions, please open an issue on GitHub.
